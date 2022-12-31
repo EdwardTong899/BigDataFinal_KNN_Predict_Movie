@@ -23,10 +23,10 @@ Using three type of classifier to handle Malware and benign software
 4. 選擇分類器 (XGBoost model,AdaBoost model,Decision Tree model)  
 
 5. 訓練Model   
-
-   ```shell
-  xg1=xg1.fit(X_train, Y_train)
+```shell
+xg1=xg1.fit(X_train, Y_train)
 ```
+
 6. 預測  
  　```shell
   xg1_val=xg1.predict(X_valid)
