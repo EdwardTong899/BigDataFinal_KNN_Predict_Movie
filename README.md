@@ -33,8 +33,10 @@ Y_valid_df = val_data['class']
 Y_valid = np.array(Y_valid_df).astype(int)
 ```  
   
-4. 選擇分類器 (XGBoost model,AdaBoost model,Decision Tree model)    
-
+4. 選擇分類器
+    - XGBoost model  
+    - AdaBoost model
+    - Decision Tree model
 5. 訓練Model   
 ```shell
 xg1=xg1.fit(X_train, Y_train)
