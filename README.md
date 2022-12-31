@@ -7,7 +7,7 @@ Using three type of classifier to handle Malware and benign software
 
 
 # 執行流程
-1. 開啟colab連結 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qZwIZt70JjQvsyA23mm5RgxESS2tdpRa?usp=sharing)
+1. 開啟colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qZwIZt70JjQvsyA23mm5RgxESS2tdpRa?usp=sharing)
 
 2. import data  
     - trofold.xlsx  
