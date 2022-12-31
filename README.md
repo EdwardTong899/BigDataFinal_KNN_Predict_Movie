@@ -1,5 +1,4 @@
 # AIOT-Final-Project T14 植基於深度學習之惡例軟體檢測
-Using three type of classifier to handle Malware and benign software
 
  
  此作業使用3種分類器 (ADAboost, XGBoost, Decision Tree) 針對惡意軟體做分類，分類Feature為軟體執行之Hardware Performance Counter (HPC)
