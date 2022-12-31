@@ -34,5 +34,38 @@ xg1_val=xg1.predict(X_valid)
   
 7. 分析結果  
 ```shell
+from sklearn.tree import DecisionTreeClassifier
+from sklearn import metrics
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn.metrics import roc_curve, roc_auc_score, auc
+import numpy as np
+import time
+ts = time.time()
+
+
+
+
+# Confusion Matrix
+mat = confusion_matrix(Y_valid, xg1_val)
+sns.heatmap(mat,square= True, annot=True, cbar= False, fmt='d')
+plt.xlabel("predicted value")
+plt.ylabel("true value")
+plt.show()
+
+# Accuracy
 accuracy = metrics.accuracy_score(Y_valid, xg1_val)
+print('Valdation accuracy:', accuracy)
+
+# precision, recall, f1-score
+#target_names = ['0','1','2','3']
+target_names = ['0','1']
+
+print("report:\n",classification_report(Y_valid, xg1_val, target_names=target_names))
+
+print('Total time took: {0}s'.format(time.time()-ts))
+
+accuracy_score(Y_valid,xg1_val)
+## Valdation accuracy: 0.8923076923076924
+## Test accuracy: 0.41203281677301734
 ```
