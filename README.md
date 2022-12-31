@@ -28,11 +28,11 @@ xg1=xg1.fit(X_train, Y_train)
 ```
 
 6. 預測  
- 　```shell
-  xg1_val=xg1.predict(X_valid)
-  ```  
+  ```shell
+xg1_val=xg1.predict(X_valid)
+```
   
 7. 分析結果  
- 　```shell
-  accuracy = metrics.accuracy_score(Y_valid, xg1_val)
-  ```
+```shell
+accuracy = metrics.accuracy_score(Y_valid, xg1_val)
+```
