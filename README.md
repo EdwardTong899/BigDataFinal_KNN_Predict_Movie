@@ -17,7 +17,20 @@
     - 可選擇將不需要之HPC feature drop
 
   ```shell
-  X_train_df = train_data.drop(["class","L1-dcache-loads","L1-dcache-stores","branch-instructions","stalled-cycles-frontend"], axis=1) #,"L1-dcache-stores","dTLB-loads","L1-dcache-loads","branch-instructions"
+from sklearn.model_selection import train_test_split
+train_data, val_data = train_test_split(df, random_state=777, train_size=0.7)
+print('訓練資料有%s筆' %len(train_data))
+print('驗證資料有%s筆' %len(val_data))
+
+X_train_df = train_data.drop(["class","L1-dcache-loads","L1-dcache-stores","branch-instructions","stalled-cycles-frontend"], axis=1) #,"L1-dcache-stores","dTLB-loads","L1-dcache-loads","branch-instructions"
+X_train = np.array(X_train_df).astype(float)
+Y_train_df = train_data['class']
+Y_train = np.array(Y_train_df).astype(int)
+
+X_valid_df = val_data.drop(["class","L1-dcache-loads","L1-dcache-stores","branch-instructions","stalled-cycles-frontend"], axis=1) #,"L1-dcache-stores","dTLB-loads"
+X_valid = np.array(X_valid_df).astype(float)
+Y_valid_df = val_data['class']
+Y_valid = np.array(Y_valid_df).astype(int)
 ```  
   
 4. 選擇分類器 (XGBoost model,AdaBoost model,Decision Tree model)    
