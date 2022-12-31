@@ -15,6 +15,7 @@ Using three type of classifier to handle Malware and benign software
   -4P.xlsx  
   
 3. 選擇HPC Feature  
+  -可選擇將不需要之HPC feature drop
 
   ```shell
   X_train_df = train_data.drop(["class","L1-dcache-loads","L1-dcache-stores","branch-instructions","stalled-cycles-frontend"], axis=1) #,"L1-dcache-stores","dTLB-loads","L1-dcache-loads","branch-instructions"
