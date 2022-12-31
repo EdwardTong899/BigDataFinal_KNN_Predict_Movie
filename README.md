@@ -12,7 +12,7 @@ Using three type of classifier to handle Malware and benign software
 2. import data  
     - trofold.xlsx  
     - 8test.xlsx  
-    - 4P.xlsx  
+    - 4P.xlsx    
   
 3. 選擇HPC Feature  
     - 可選擇將不需要之HPC feature drop
