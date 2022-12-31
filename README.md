@@ -1,7 +1,7 @@
 # AIOT-Final-Project T14 植基於深度學習之惡意軟體檢測
 
  
- 此作業使用3種分類器 (ADAboost, XGBoost, Decision Tree) 針對惡意軟體做分類，分類Feature為軟體執行之Hardware Performance Counter (HPC)。
+ 此作業使用3種分類器 (ADAboost, XGBoost, Decision Tree) 針對惡意軟體做分類，分類Feature為軟體執行之Hardware Performance Counter (HPC)。  
  HPC資料如上，本次實驗使用trofold.xlsx，內有約6000筆HPC trace ，分別為2412筆正常軟體，與3279筆惡意軟之HPC trace。
 
 
