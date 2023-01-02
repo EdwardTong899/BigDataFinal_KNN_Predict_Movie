@@ -12,8 +12,7 @@
     - trofold.xlsx  
     - 8test.xlsx  
     - 4P.xlsx    
-3. Pearson Correlation    
-    - 開啟colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18-wrNp_j-7e4My8XiYgDyFlR2QFN0NN1?usp=sharing)  
+3. Pearson Correlation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18-wrNp_j-7e4My8XiYgDyFlR2QFN0NN1?usp=sharing)  
     - 排序Feature與Label之權重
 4. 選擇HPC Feature  
     - 可選擇將不需要之HPC feature drop
