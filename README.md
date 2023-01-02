@@ -8,12 +8,13 @@
 # 執行流程
 1. 開啟colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qZwIZt70JjQvsyA23mm5RgxESS2tdpRa?usp=sharing)
 
-2. import data  
+2. Import data  
     - trofold.xlsx  
     - 8test.xlsx  
     - 4P.xlsx    
-  
-3. 選擇HPC Feature  
+3. Pearson Correlation    
+1. 開啟colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18-wrNp_j-7e4My8XiYgDyFlR2QFN0NN1?usp=sharing)
+4. 選擇HPC Feature  
     - 可選擇將不需要之HPC feature drop
 
   ```shell
@@ -33,12 +34,12 @@ Y_valid_df = val_data['class']
 Y_valid = np.array(Y_valid_df).astype(int)
 ```  
   
-4. 選擇分類器
+5. 選擇分類器
     - XGBoost model  
     - AdaBoost model
     - Decision Tree model    
     
-5. 訓練Model   
+6. 訓練Model   
 ```shell
 xg1=xg1.fit(X_train, Y_train)
 ```  
