@@ -3,11 +3,11 @@
  
    - 此作業使用KNN之方法，先找出與預測目標喜好最相符的ID (high correlation)將相似的ID對預測結果填值
    - 本次使用Training Dataset 分別為 'movies.xlsx' 'ratings.xlsx' 'users.xlsx'
-   - Predict Dataset 為
+   - Predict Dataset 為 teachers_rating
 
 
 # 執行流程
-1. 開啟colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qZwIZt70JjQvsyA23mm5RgxESS2tdpRa?usp=sharing)
+1. 開啟colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ToCij4TfVhnGvrqGEObNegzTDwZjVCwt?usp=sharing)
 
 2. Import data  
     - trofold.xlsx  
