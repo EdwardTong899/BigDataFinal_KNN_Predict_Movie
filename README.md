@@ -1,8 +1,9 @@
-# AIOT-Final-Project T14 植基於深度學習之惡意軟體檢測
+# Big Data-Final-Project T13 電影喜好預測期末專案
 
  
-   - 此作業使用3種分類器 (ADAboost, XGBoost, Decision Tree) 針對惡意軟體做分類，分類Feature為軟體執行之Hardware Performance Counter (HPC)。  
-   - HPC資料如上，本次實驗使用trofold.xlsx，內有約6000筆HPC trace ，分別為2412筆正常軟體，與3279筆惡意軟之HPC trace。
+   - 此作業使用KNN之方法，先找出與預測目標喜好最相符的ID (high correlation)將相似的ID對預測結果填值
+   - 本次使用Training Dataset 分別為 'movies.xlsx' 'ratings.xlsx' 'users.xlsx'
+   - Predict Dataset 為
 
 
 # 執行流程
