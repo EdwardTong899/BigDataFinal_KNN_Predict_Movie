@@ -1,0 +1,71 @@
+My Profile as follows.
+
+1::Toy Story (1995)::Animation|Children's|Comedy, 5
+
+2::Jumanji (1995)::Adventure|Children's|Fantasy, 4
+
+9::Sudden Death (1995)::Action, 2
+
+10::GoldenEye (1995)::Action|Adventure|Thriller, 2
+
+13::Balto (1995)::Animation|Children's, 1
+
+14::Nixon (1995)::Drama, 1
+
+17::Sense and Sensibility (1995)::Drama|Romance, 1
+
+22::Copycat (1995)::Crime|Drama|Thriller, 2
+
+23::Assassins (1995)::Thriller, 3
+
+47::Seven (Se7en) (1995)::Crime|Thriller, 2
+
+356::Forrest Gump (1994)::Comedy|Romance|War, 5
+
+3147::Green Mile, The (1999)::Drama|Thriller, 5
+
+593::Silence of the Lambs, The (1991)::Drama|Thriller, 2
+
+2028::Saving Private Ryan (1998)::Action|Drama|War, 5
+
+838::Emma (1996)::Comedy|Drama|Romance, 1
+
+1721::Titanic (1997)::Drama|Romance, 5
+
+2628::Star Wars: Episode I - The Phantom Menace (1999)::Action|Adventure|Fantasy|Sci-Fi, 4
+
+1608::Air Force One (1997)::Action|Thriller, 4
+
+165::Die Hard: With a Vengeance (1995)::Action|Thriller, 4
+
+589::Terminator 2: Judgment Day (1991)::Action|Sci-Fi|Thriller, 2
+
+ 
+
+請預測以下我個人之電影喜好評分：
+
+253::Interview with the Vampire (1994)::Drama|Horror
+
+527::Schindler's List (1993)::Drama|War, ?
+
+260::Star Wars: Episode IV - A New Hope (1977)::Action|Sci-Fi,?
+
+3623::Mission: Impossible 2 (2000)::Action|Thriller, ?
+
+3793::X-Men (2000)::Action|Sci-Fi, ?
+
+2571::Matrix, The (1999)::Action|Sci-Fi|Thriller, ?
+
+3510::Frequency (2000)::Drama|Thriller
+
+3273::Scream 3 (2000)::Horror|Mystery|Thriller
+
+208::Waterworld (1995)::Action|Adventure, ?
+
+3409::Final Destination (2000)::Drama|Thriller, ?
+
+ 
+
+請預測上述十部電影之喜好度。
+
+請以list格式進行繳交，例如，[1,3,1,3,1,3,1,3,1, 3]
